@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temario para el Examen Enigma Universal</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .section-card {
+            background: linear-gradient(135deg, #ffffff, #f9fafb);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+        }
+        .header-bg {
+            background: linear-gradient(90deg, #3b82f6, #1e3a8a);
+        }
+        .list-item {
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        .list-item::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #3b82f6;
+            font-size: 1.5rem;
+        }
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+        }
+        .section-image {
+            border-radius: 8px;
+            object-fit: cover;
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <header class="header-bg text-white text-center py-10">
+        <h1 class="text-4xl md:text-5xl font-bold mb-2">Temario para el Examen Enigma Universal</h1>
+        <p class="text-lg md:text-xl">Prepárate para el desafío del conocimiento universal</p>
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Conocimiento universal" class="mt-4 mx-auto rounded-lg w-3/4 md:w-1/2 h-48 object-cover">
+    </header>
+
+    <main class="flex-grow max-w-5xl mx-auto p-6 space-y-8">
+        <!-- Nivel 1: Conocimientos Generales -->
+        <section class="section-card p-6">
+            <h2 class="text-2xl font-semibold text-blue-900 mb-4">1. Conocimientos Generales (Nivel 1: Trivia Relámpago)</h2>
+            <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765" alt="Cultura general" class="section-image mb-4">
+            <p class="text-gray-700 mb-4">Preguntas de opción múltiple que abarcan temas variados:</p>
+            <ul class="space-y-2 text-gray-600">
+                <li class="list-item"><strong>Cine y Animación:</strong> Películas icónicas (ej. "Matrix") y animes populares (ej. "Death Note", "Naruto", "My Hero Academia", "Attack on Titan").</li>
+                <li class="list-item"><strong>Geografía:</strong> Países, monumentos famosos (ej. Torre Eiffel, pirámides de Giza, Machu Picchu) y características de continentes y océanos.</li>
+                <li class="list-item"><strong>Literatura:</strong> Obras clásicas y modernas (ej. "Fahrenheit 451", "El Hobbit", "Orgullo y Prejuicio") y sus autores.</li>
+                <li class="list-item"><strong>Ciencia y Tecnología:</strong> Elementos químicos, anatomía humana, instrumentos científicos (ej. barómetro) y conceptos básicos de programación (ej. lenguajes como C).</li>
+                <li class="list-item"><strong>Videojuegos:</strong> Detalles de juegos como "Hollow Knight" (objetos, mecánicas, recursos).</li>
+                <li class="list-item"><strong>Historia:</strong> Civilizaciones antiguas (ej. Inca) y figuras históricas con referencias culturales.</li>
+                <li class="list-item"><strong>Educación IB Diploma:</strong> Componentes del programa (ej. CAS, Extended Essay, TOK, asignaturas como Historia).</li>
+            </ul>
+            <p class="mt-4 text-blue-700 font-medium">Recomendación: Revisa datos clave de cultura pop, geografía básica, literatura clásica, conceptos científicos elementales y términos relacionados con el IB Diploma.</p>
+        </section>
+
+        <!-- Nivel 2: Razonamiento Lógico y Ético -->
+        <section class="section-card p-6">
+            <h2 class="text-2xl font-semibold text-blue-900 mb-4">2. Razonamiento Lógico y Ético (Nivel 2: Desafíos Lógicos)</h2>
+            <img src="https://images.unsplash.com/photo-1509228468518-72105b3a8b8f" alt="Razonamiento lógico" class="section-image mb-4">
+            <p class="text-gray-700 mb-4">Respuestas abiertas que evalúan pensamiento crítico y resolución de problemas:</p>
+            <ul class="space-y-2 text-gray-600">
+                <li class="list-item"><strong>Dilemas Éticos:</strong> Análisis de decisiones en contextos médicos, tecnológicos (IA) o narrativos (animes), considerando riesgo, beneficio, lealtad y consecuencias.</li>
+                <li class="list-item"><strong>Problemas Lógicos:</strong> Ejercicios de probabilidad (ej. problema de las tres puertas/Monty Hall) y optimización de recursos (ej. uso de una balanza para identificar anomalías).</li>
+                <li class="list-item"><strong>Estrategia en Videojuegos:</strong> Toma de decisiones en escenarios con recursos limitados.</li>
+            </ul>
+            <p class="mt-4 text-blue-700 font-medium">Recomendación: Practica resolver problemas lógicos paso a paso, analiza dilemas éticos desde múltiples perspectivas y familiarízate con juegos de estrategia.</p>
+        </section>
+
+        <!-- Nivel 3: Asociaciones Culturales -->
+        <section class="section-card p-6">
+            <h2 class="text-2xl font-semibold text-blue-900 mb-4">3. Asociaciones Culturales (Nivel 3: Mosaico del Saber)</h2>
+            <img src="https://images.unsplash.com/photo-1516979187457-6376e5513832" alt="Cultura e historia" class="section-image mb-4">
+            <p class="text-gray-700 mb-4">Capacidad de conectar conceptos culturales, históricos o tecnológicos:</p>
+            <ul class="space-y-2 text-gray-600">
+                <li class="list-item"><strong>Videojuegos y Tecnología:</strong> Juegos como "Splatoon" o "Mortal Kombat" con temas como creatividad o resolución de puzles.</li>
+                <li class="list-item"><strong>Historia y Cultura:</strong> Elementos como samuráis con Japón o "La Ilíada" con Grecia antigua.</li>
+                <li class="list-item"><strong>Ciencia y Programación:</strong> Figuras como Grace Hopper con programación.</li>
+            </ul>
+            <p class="mt-4 text-blue-700 font-medium">Recomendación: Estudia conexiones entre figuras históricas, obras culturales y conceptos abstractos. Usa mapas mentales para relacionar ideas.</p>
+        </section>
+
+        <!-- Nivel 4: Resolución de Acertijos -->
+        <section class="section-card p-6">
+            <h2 class="text-2xl font-semibold text-blue-900 mb-4">4. Resolución de Acertijos (Nivel 4: Reto del Oráculo)</h2>
+            <img src="https://images.unsplash.com/photo-1516321165247-4aa89a48d565" alt="Acertijos y enigmas" class="section-image mb-4">
+            <p class="text-gray-700 mb-4">Acertijos estilo "escape room" que combinan conocimientos de varias áreas:</p>
+            <ul class="space-y-2 text-gray-600">
+                <li class="list-item"><strong>Historia y Tecnología:</strong> Referencias a inventores (ej. teléfono) y lenguajes de programación (ej. Python).</li>
+                <li class="list-item"><strong>Geografía y Literatura:</strong> Conexiones con países (ej. Perú) y autores literarios (ej. Ray Bradbury).</li>
+                <li class="list-item"><strong>Matemáticas:</strong> Símbolos como letras griegas (ej. delta).</li>
+            </ul>
+            <p class="mt-4 text-blue-700 font-medium">Recomendación: Practica resolver acertijos que integren datos de múltiples disciplinas. Identifica iniciales, símbolos y patrones en palabras o frases.</p>
+        </section>
+
+        <!-- Consejos Generales -->
+        <section class="section-card p-6">
+            <h2 class="text-2xl font-semibold text-blue-900 mb-4">Consejos Generales</h2>
+            <img src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d" alt="Estudio y preparación" class="section-image mb-4">
+            <ul class="space-y-2 text-gray-600">
+                <li class="list-item"><strong>Diversidad de Temas:</strong> El examen abarca desde cultura pop hasta conocimientos académicos (literatura, ciencia, IB Diploma). Repasa temas variados.</li>
+                <li class="list-item"><strong>Habilidades Críticas:</strong> Enfócate en el razonamiento lógico, la toma de decisiones éticas y la capacidad de conectar conceptos.</li>
+                <li class="list-item"><strong>Práctica con Acertijos:</strong> Resuelve problemas de lógica y acertijos que requieran integrar información de varias fuentes.</li>
+                <li class="list-item"><strong>Gestión del Tiempo:</strong> El examen será de 1 hora y 30 minutos e incluye preguntas de selección múltiple (Nivel 1) y otras que requieren análisis. Practica responder bajo presión.</li>
+                <li class="list-item"><strong>Palabra de Suerte:</strong> "Nazismo" (6 letras). ¡Presta atención a los ejemplos!</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="text-center py-4">
+        <p>© 2025 Examen Enigma Universal. ¡Prepárate y buena suerte!</p>
+    </footer>
+</body>
+</html>
